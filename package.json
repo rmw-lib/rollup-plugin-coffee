@@ -35,9 +35,6 @@
     "sake-test": "^0.2.1",
     "sake-version": "^0.1.19"
   },
-  "peerDependencies": {
-    "rollup": ">=1"
-  },
   "scripts": {
     "build": "sake build",
     "prepublishOnly": "sake build",
