@@ -1,5 +1,5 @@
 {
-  "name": "@zeekay/rollup-plugin-coffee",
+  "name": "@rmw/rollup-plugin-coffee",
   "version": "0.1.19",
   "description": "A Rollup.js plugin to compile CoffeeScript 2 (and 1)",
   "keywords": [
@@ -26,18 +26,17 @@
   "module": "lib/rollup-plugin-coffee.es.js",
   "jsnext:main": "lib/rollup-plugin-coffee.es.js",
   "devDependencies": {
-    "coffee-script": "^1.12.7",
-    "coffeescript": "^2.3.1",
-    "find-coffee": "^0.2.2",
-    "sake-bundle": "^0.6.14",
-    "sake-cli": "^0.7.2",
-    "sake-outdated": "^0.3.0",
+    "coffeescript": "^2.6.1",
+    "find-coffee": "^0.2.3",
+    "sake-bundle": "^0.6.15",
+    "sake-cli": "^0.7.3",
+    "sake-outdated": "^0.4.4",
     "sake-publish": "^0.1.17",
     "sake-test": "^0.2.1",
     "sake-version": "^0.1.19"
   },
   "peerDependencies": {
-    "rollup": ">=0.34.1 <1"
+    "rollup": ">=1"
   },
   "scripts": {
     "build": "sake build",
